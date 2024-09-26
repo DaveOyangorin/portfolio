@@ -253,18 +253,21 @@
                     <div class="swiper-wrapper">
                         <!--==================== PORTFOLIO 1====================-->
                         <div class="portfolio_content grid swiper-slide">
-                            <img src="assets/img/portfolio1.jpg" alt="" class="portfolio_img">
+                            <img src="assets/img/axpara.png" alt="" class="portfolio_img">
                             
                             <div class="portfolio_data">
-                                <h3 class="portfolio_title">Ecommerce Website</h3>
-                                <p class="portfolio_description">Ecommerce Website using MERN stack</p>
+                                <h3 class="portfolio_title">Axpara.com</h3>
+                                <p class="portfolio_description">Aids in navigating the complexities of labor regulations and cultural differences to make remote hiring more efficient and effective</p>
 
-                                <a href="#" class="button button--flex button--small portfolio_button">Demo
+                                <a href="https://axpara.com" class="button button--flex button--small portfolio_button">Demo
                                     <i class="uil uil-arrow-right button-icon"></i>
                                 </a>
                             </div>
                         </div>
+                        
+                        
                     </div>
+                    
                  </div>
             </section>
 
@@ -371,5 +374,21 @@
 
         <!--==================== MAIN JS ====================-->
         <script src="assets/js/main.js"></script>
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        <script>
+            var swiper = new Swiper('.swiper', {
+                slidesPerView: 'auto',
+                spaceBetween: 30,
+                loop: true, // Enable looping
+                pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true,
+                },
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+            });
+        </script>
     </body>
 </html>
