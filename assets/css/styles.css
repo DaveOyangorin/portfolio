@@ -449,6 +449,10 @@ img{
     width: 70%;
 }
 
+.skills_wordpress{
+    width: 80%;
+}
+
 .skills_node{
     width: 30%;
 }
@@ -470,7 +474,10 @@ img{
     transform: rotate(-180deg);
 }
 
-
+.center{
+    justify-self: center;
+    align-content: center;
+}
 
 /* Active Modal */
 
@@ -484,8 +491,12 @@ img{
     padding: 0 1.5rem;
 }
 
+.portfolio_content{
+    
+}
+
 .portfolio_img{
-    width: 265px;
+    width: 205px;
     border-radius: .5rem;
     justify-self: center;
 }
